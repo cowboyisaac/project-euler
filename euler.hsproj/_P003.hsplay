@@ -1,0 +1,5 @@
+-- Haskell Playground 1.0
+fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
+
+sum = foldl (+) 0 [2,3]
+
